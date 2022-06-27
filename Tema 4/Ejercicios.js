@@ -45,13 +45,13 @@ cicloFor();
 
 function switchCase(estacion) {
   switch (estacion) {
-    case "invierno":
+    case "invierno" || "Invierno":
       return "Estamos en invierno";
-    case "primavera":
+    case "primavera" || "Primavera":
       return "Estamos en primavera";
-    case "verano":
+    case "verano" || "Verano":
       return "Estamos en verano";
-    case "otoño":
+    case "otoño" || "Otoño":
       return "Estamos en otoño";
     default:
       return "No es una estación";
