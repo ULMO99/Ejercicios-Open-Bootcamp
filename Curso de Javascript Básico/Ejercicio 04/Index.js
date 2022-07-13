@@ -1,0 +1,9 @@
+var nombre = "Ulises";
+var apellido = "Moreno";
+var estudiante = nombre + " " + apellido;
+var estudianteMayus = estudiante.toUpperCase();
+var estudianteMinus = estudiante.toLowerCase();
+var first = nombre[0];
+var last = apellido.slice(-1);
+var sinEspacios = estudiante.split(" ").join("");
+var verdadero = estudiante.includes(nombre);
