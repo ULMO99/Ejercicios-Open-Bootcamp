@@ -33,6 +33,23 @@ const titulos = peliculas.map((pelicula) => {
 const directores_titulos = directores.concat(titulos);
 const directores_titulos_prop = [...directores, ...titulos];
 
-console.log(directores_titulos);
 
-console.log(directores_titulos_prop);
+const array = [2, 5, 9, 8, 1, 4, 6, 15, 78]
+
+array.sort((a, b) => {
+  if(a < b) {
+    return -1;
+  } else if (a > b) {
+    return +1;
+  } else {
+    return 0;
+  }
+})
+
+console.log(array);
+
+const arrayNumerico = [2, 5, 9, 8, 1, 4, 6, 15, 78];
+
+arrayNumerico.sort((a, b) => a - b)
+
+console.log(arrayNumerico);
