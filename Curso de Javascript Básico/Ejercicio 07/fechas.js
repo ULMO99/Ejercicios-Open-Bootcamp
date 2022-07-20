@@ -10,8 +10,10 @@ const mayorOMenor = hoy > cumpleaños;
 
 console.log(mayorOMenor);
 
-const diaNacimiento = cumpleaños.getDay();
+const diaNacimiento = cumpleaños.getDate();
 const mesNacimiento = cumpleaños.getMonth() + 1;
 const anioNacimiento = cumpleaños.getFullYear();
 
 console.log(diaNacimiento);
+console.log(mesNacimiento);
+console.log(anioNacimiento);
